@@ -1,0 +1,77 @@
+/* Custom CSS
+-------------------------*/
+
+body {
+    background:  url([[pix:theme|bg]]) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	padding-top: 60px;
+	color: #58585A;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+#page {
+    padding-top: 47px;
+}
+
+a.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.dir-rtl a.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+.navbar-inner{
+	background: #F5F5F5;
+}
+
+.navbar .navbar-inner a.brand span {
+    display: none;
+}
+
+
+.navbar .navbar-inner a.brand {
+    background-image: url([[pix:theme|logo]]);
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 74px;
+    padding: 5px 20px;
+    width: 214px;
+}
+
+.navbar .nav {
+    margin-top: 17px;
+}
+
+.navbar-text, .navbar .nav > li > a{color:#E8770D;}
+
+.breadcrumb {
+    
+    border-radius: 4px;
+    list-style: none outside none;
+    margin: 0 0 20px;
+    padding: 8px 15px;	
+	background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+.coursebox {
+    border: 1px dotted #DDDDDD;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 5px;
+	background:#f5f5f5;
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
